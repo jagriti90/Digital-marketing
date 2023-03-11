@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.pop_box{
+    position: relative;
+    backdrop-filter: blur(10px);
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 4px 6px;
+    box-shadow: 0 5px 25px rgb(0 0 0 /20%);
+    color: white;
+
+}
